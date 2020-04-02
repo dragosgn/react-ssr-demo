@@ -1,0 +1,33 @@
+{
+  "name": "ssr-react",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "escape-string-regexp": "^2.0.0",
+    "express": "^4.17.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-ssr-scripts": "2.2.3"
+  },
+  "scripts": {
+    "start": "react-ssr-scripts start",
+    "build": "react-ssr-scripts build",
+    "test": "react-ssr-scripts test",
+    "eject": "react-ssr-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
